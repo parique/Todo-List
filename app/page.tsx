@@ -19,7 +19,6 @@ export default function TodoApp() {
       ...tasks,
       { id: Date.now(), text: newTask.trim(), completed: false },
     ]);
-    
     setNewTask("");
   };
 
