@@ -8,7 +8,7 @@ type Task = {
   text: string;
   completed: boolean;
 };
-
+// main function
 export default function TodoApp() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTask, setNewTask] = useState<string>("");
